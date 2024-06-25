@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gerenciamento de Biblioteca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Biblioteca Universitária</h1>
+        <form id="book-form">
+            <input type="text" id="title" placeholder="Título do Livro" required>
+            <input type="text" id="author" placeholder="Autor" required>
+            <input type="text" id="isbn" placeholder="ISBN" required>
+            <button type="submit">Adicionar Livro</button>
+        </form>
+        <ul id="book-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
